@@ -10,12 +10,12 @@ Skript for Towny that adds resource requirements for creating towns.
 - Skript-Reflect - https://github.com/SkriptLang/skript-reflect
 
 ## Installation
-1. Download TownyMaterials.sk
-2. Put it into plugins/Skript/scripts/
+1. Download `TownyMaterials.sk`
+2. Put it into `plugins/Skript/scripts/`
 3. Reload Skript
-4. Edit config.yml in plugins/TownyMaterials/
+4. Edit `config.yml` in `plugins/TownyMaterials/`
 5. Reload script:
-/sk reload TownyMaterials
+`/sk reload TownyMaterials`
 
 ## Config example
 
