@@ -1,23 +1,25 @@
-# TownyMaterials
+<img width="1000" height="150" alt="Текст абзаца" src="https://github.com/user-attachments/assets/86a615f8-6678-4c3d-a8bb-550ab068aafe" />
 
-A Skript for Towny that adds configurable resource requirements for town creation.
 
-<img width="592" height="90" alt="preview" src="https://github.com/user-attachments/assets/b544d71e-51ab-43f8-aaea-80a6bbd24e83" />
+# TownyMaterials:
+A [Skript](https://github.com/SkriptLang/Skript) for [Towny](https://github.com/TownyAdvanced/Towny) that adds configurable resource requirements for town creation.
 
-## Requirements
-* Towny - https://github.com/TownyAdvanced/Towny
-* Skript - https://github.com/SkriptLang/Skript
-* Skript-YAML - https://github.com/Sashie/skript-yaml
-* Skript-Reflect - https://github.com/SkriptLang/skript-reflect
+## Features:
+- Configurable resource requirements for town creation
+- Custom messages support
+- YAML-based configuration
 
-## Installation
-1. Download `TownyMaterials.sk`.
-2. Place it in `plugins/Skript/scripts/`.
-3. Reload Skript or restart your server.
-4. Edit `plugins/TownyMaterials/config.yml`.
-5. Reload the script: ```/sk reload TownyMaterials```
+## Requirements:
+- [Towny](https://github.com/TownyAdvanced/Towny)
+- [Skript](https://github.com/SkriptLang/Skript)
+- [skript-reflect](https://github.com/SkriptLang/skript-reflect)
+- [skript-reflect](https://github.com/SkriptLang/skript-reflect)
 
-## Config Example
+## Configuration:
+- All settings are stored in `plugins/TownyMaterials/config.yml`.  
+- After making changes, reload the script using: `/sk reload TownyMaterials`
+
+## Config Example:
 ```yaml
 msg: "&8| You must have the following resources to create a town:"
 
@@ -27,4 +29,5 @@ materials:
 - "32 coal"
 - "16 iron_ingot"
 ```
-
+## Feedback:
+Found a bug or have a suggestion? Please open an issue!
